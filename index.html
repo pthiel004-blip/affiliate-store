@@ -288,7 +288,10 @@
     <script>
         // ============ DATA ============
         let products = JSON.parse(localStorage.getItem('products')) || [
-            { id: 1, name: '1% Reels', category: 'Business', image: '📹', description: 'Lerne wie du mit Instagram Reels viral gehst', benefits: 'Schritt-für-Schritt Anleitung,Viral-Strategien,Monetarisierung', price: 67, link: 'https://amazon.com', clicks: 0 }
+            { id: 1, name: '1% Reels', category: 'Business', image: '📹', description: 'Lerne wie du mit Instagram Reels viral gehst', benefits: 'Schritt-für-Schritt Anleitung,Viral-Strategien,Monetarisierung', price: 67, link: 'https://amazon.com', clicks: 5 },
+            { id: 2, name: 'ChatGPT Pro', category: 'KI Produkte', image: '🤖', description: 'Die beste KI für produktive Arbeit', benefits: 'Unbegrenzte Anfragen,Schnellere Verarbeitung,Neue Features', price: 20, link: 'https://openai.com', clicks: 12 },
+            { id: 3, name: 'Fitnesstracker Pro', category: 'Fitness', image: '⌚', description: 'Überwache deine Gesundheit 24/7', benefits: 'Herzfrequenzmessung,Schlaftracking,Wasserdicht', price: 199, link: 'https://amazon.com', clicks: 8 },
+            { id: 4, name: 'Vitamin D3', category: 'Gesundheit', image: '💊', description: 'Hochdosiertes Vitamin D für dein Immunsystem', benefits: 'Stärkt Immunsystem,Bessere Knochengesundheit,Hochwertige Qualität', price: 24.99, link: 'https://amazon.com', clicks: 3 }
         ];
         let categories = JSON.parse(localStorage.getItem('categories')) || ['Business', 'Fitness', 'KI Produkte', 'Gesundheit'];
         let subscribers = JSON.parse(localStorage.getItem('subscribers')) || [];
